@@ -1,19 +1,12 @@
 // Место для первой задачи
 function sayHello(name) {
-	let message = `"Привет, ${name}!"`;
-	console.log(message);
-	return message; 
+	return `"Привет, ${name}!"`;
 }
 sayHello('Zaur');
 
 // Место для второй задачи
 function returnNeighboringNumbers(num) {
-	let arr = [];
-	arr[0] = num - 1;
-	arr[1] = num;
-	arr[2] = num + 1; 
-	console.log(arr);
-	return arr;
+	return [num - 1, num, num + 1];
 }
 returnNeighboringNumbers(10);
 
