@@ -28,7 +28,7 @@ function rememberMyFilms() {
 	for (let i = 0; i < numberofFilms; i++) {
 
 		do {
-			lastFilms = prompt('Один из последних просмотренных фильмов?','');
+			lastFilms = prompt('Один из последних просмотренных фильмов?','').trim();
 		}
 		while (lastFilms == '' || lastFilms == null || lastFilms.length <= 10);
 	
