@@ -31,3 +31,4 @@ function availableCurr(arr, missingCurr) {
 };
 
 console.log(availableCurr(arr, 'RUB'));
+
